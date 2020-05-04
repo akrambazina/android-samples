@@ -7,7 +7,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.mapdemo"
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
@@ -40,11 +40,12 @@ dependencies {
     testImplementation 'junit:junit:4.13'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'androidx.appcompat:appcompat:1.1.0'
+
     // Needed for the LiteListDemo
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
 
     // Dependencies for the Maps SDK v3.0 beta
-    implementation name:'maps-sdk-3.0.0-beta', ext:'aar'
+    implementation name:'maps-sdk-3.1.0-beta', ext:'aar'
     implementation 'com.google.android.gms:play-services-basement:17.2.1'
     implementation 'com.google.android.gms:play-services-base:17.2.1'
     implementation 'com.google.android.gms:play-services-gcm:17.0.0'
